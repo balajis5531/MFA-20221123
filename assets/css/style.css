@@ -1,40 +1,93 @@
 *{
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #0d1323;
+    background-color:;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-h1{
-    color: #fff;
-}
-p{
+.item {
+    grid-area: balaji;
     
-    color: #fff;
 }
-h2{
-    color: #ffff;
 
-}
-h4{
-    color: #fff;
-}
-h5{
-    color: #fff;
-}
 .header{
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
     grid-template-areas: 'balaji . . .'
     'balaji . . .';
 
 }
+.content1{
+    background-color: #1d204b;
+    padding-top: 20px;
+
+}
+.item{
+    background-color: #1d204b;
+    border-radius: 20px;
+}
+.image1{
+    background-color: #5746ea;
+    border-radius: 20px;
+    height: 450px;
+}
+.align1{
+    display: flex;
+    justify-content: space-between;
+}
+.item1 .img{
+    height: 35px;
+    width: 100px;
+    margin-left: 60%;
+}
+.row1{
+    background-color: #ff8b64;
+    border-radius: 20px;
+}
+.row2{
+    background-color: #56c2e6;
+    border-radius: 20px;
+}
+.row3{
+    background-color: #ff5e7d;
+    border-radius: 20px;
+}
+.row4{
+    background-color: #4bcf83;
+    border-radius: 20px;
+}
+.row5{
+    background-color: #7235d1;
+    border-radius: 20px;
+}
+.row6{
+    background-color: #f1c75b;
+    border-radius: 20px;
+}
+
+.close{
+    background-color: #1d204b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 190px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/*
 .item1{
     background-color: #1d204b;
     border-radius: 13px;
@@ -80,13 +133,10 @@ h5{
     justify-content: space-between;
 }
 
-.item {
-    grid-area: balaji;
-    border-radius: 10px;
-}
+
 .content1{
     background-color: #1d204b;
     border-radius: 10px;
 
 
-}
+} */
