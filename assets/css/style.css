@@ -36,7 +36,7 @@ h5{
 
 }
 .item1{
-    background-color: #1c234b;
+    background-color: #1d204b;
     border-radius: 13px;
 }
 .item1 .img{
@@ -82,12 +82,9 @@ h5{
 
 .item {
     grid-area: balaji;
-    background-color: #5746ea;
     border-radius: 10px;
 }
 .content1{
-    width:260px;
-    height: 200px;
     background-color: #1d204b;
     border-radius: 10px;
 
