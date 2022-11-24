@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 10%;
+    color: #fff;
 
 }
 .item {
@@ -82,10 +83,6 @@ body{
     padding-bottom: 190px;
     border-radius: 20px;
 }
-
-
-
-
 
 
 /*
